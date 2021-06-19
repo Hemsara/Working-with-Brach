@@ -15,7 +15,15 @@
         laudantium sed vero nemo doloribus provident ducimus quas velit
         incidunt. Doloremque!
       </p>
-      <button class="btn">Explore More</button>
+      <button class="btn" id="add">Explore More</button>
+      <p class="cart" id="cart"></p>
     </div>
   </body>
+
+  <script>
+      document.getElementById("add").addEventListener("click", function(){
+          document.getElementById('cart').innerText = 'Add To Cart'
+      });
+  </script>
+  
 </html>
